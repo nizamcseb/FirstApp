@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#eb7f7f</color>
+    <color name="colorPrimaryDark">#f0c01a</color>
+    <color name="colorAccent">#333333</color>
+    <color name="primary_material_light">#bfb79d</color>
+    <color name="primary_dark_material_light">#333333</color>
+    <color name="accent_material_light">#bfb79d</color>
+    <color name="primary_material_light_1">#bfb79d</color>
+    <color name="primary_material_light_2">#1a3f6f</color>
+
+    <color name="colorInactive">#747474</color>
+    <color name="colorActiveSmall">#FFFFFF</color>
+    <color name="colorInactiveSmall">#50FFFFFF</color>
+
+    <color name="list_item_title">#000000</color>
+    <color name="list_background">#ffffff</color>
+    <color name="list_background_pressed">#1a3f6f</color>
+    <color name="list_divider">#f0c01a</color>
+    <color name="counter_text_bg">#626262</color>
+    <color name="counter_text_color">#c5c4c4</color>
+    <color name="humaidi_orange">#0e2e45</color>
+    <color name="excellencegold">#cccc33</color>
+
+
+    <color name="colorHighlightWhite">#ffffff</color>
+    <color name="colorHighlightBlack">#05668d</color>
+    <color name="navItemTint">#bbb184</color>
+    <color name="navheaderEmailId">#ddc767</color>
+    <color name="navItemtext">#ffffff</color>
+    <color name="navDarkBackround">#0e2e45</color>
+
+    <color name="textHeadings">#f0c01a</color>
+    <color name="light_Bg">#1a3f6f</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#1a3e6f</color>
+    <color name="blackLight">#80000000</color>
+    <color name="mainSearchLay_Bg">#bbb184</color>
+
+    <color name="listItemText_Places_heading">#0e2e45</color>
+    <color name="listItemText_Places_address">#89815b</color>
+
+    <color name="buttonAll_bg">#bab390</color>
+    <color name="textViewHeadingAll">#0e2e45</color>
+    <color name="textViewAll">#89815b</color>
+    <color name="editTextBg">#deddda</color>
+    <color name="editTextHint">#aca9a0</color>
+
+    <color name="bg_allLayouts">#eed9a3</color>
+    <color name="actionBarToggle">#f0c01a</color>
+    <color name="foreground_material_dark">#f0c01a</color>
+    <color name="secondary_text_material_dark">#f6c229</color>
+    <color name="secondary_text_material_light">#5cdde6</color>
+
+    <color name="color_tab_1">#455C65</color>
+    <color name="color_tab_2">#00886A</color>
+    <color name="color_tab_3">#1a3e6f</color>
+    <color name="color_tab_4">#6C4A42</color>
+    <color name="color_tab_5">#F63D2B</color>
+    <color name="light_grey">#80cccccc</color>
+</resources>

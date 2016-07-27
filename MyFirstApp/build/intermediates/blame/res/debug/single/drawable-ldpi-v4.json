@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "D:\\Projects\\SalesForce\\testing\\FirstApp\\MyFirstApp\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\ic_apps_black_24dp.png",
+        "source": "D:\\Projects\\SalesForce\\testing\\FirstApp\\MyFirstApp\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_apps_black_24dp.png"
+    },
+    {
+        "merged": "D:\\Projects\\SalesForce\\testing\\FirstApp\\MyFirstApp\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\ic_accounts.png",
+        "source": "D:\\Projects\\SalesForce\\testing\\FirstApp\\MyFirstApp\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_accounts.png"
+    },
+    {
+        "merged": "D:\\Projects\\SalesForce\\testing\\FirstApp\\MyFirstApp\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\ic_course.png",
+        "source": "D:\\Projects\\SalesForce\\testing\\FirstApp\\MyFirstApp\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_course.png"
+    },
+    {
+        "merged": "D:\\Projects\\SalesForce\\testing\\FirstApp\\MyFirstApp\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\ic_conts.png",
+        "source": "D:\\Projects\\SalesForce\\testing\\FirstApp\\MyFirstApp\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_conts.png"
+    },
+    {
+        "merged": "D:\\Projects\\SalesForce\\testing\\FirstApp\\MyFirstApp\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\sf__icon.png",
+        "source": "D:\\Projects\\SalesForce\\testing\\FirstApp\\MyFirstApp\\build\\intermediates\\exploded-aar\\FirstApp.forcedroid.libs\\SalesforceSDK\\unspecified\\res\\drawable-ldpi-v4\\sf__icon.png"
+    }
+]

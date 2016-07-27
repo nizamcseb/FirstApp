@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#454545"
+    android:orientation="vertical">
+
+    &lt;!&ndash;<include layout="@layout/header" />&ndash;&gt;
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="3dp"
+        android:text="@string/app_name"
+        android:textColor="#000000" />
+
+    <Button
+        android:id="@+id/logout_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:onClick="onLogoutClick"
+        android:text="@string/logout_button" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/fetch_contacts"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onFetchContactsClick"
+            android:text="@string/fetch_contacts_button" />
+
+        <Button
+            android:id="@+id/clear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onClearClick"
+            android:text="@string/clear_button" />
+
+        <Button
+            android:id="@+id/fetch_accounts"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onFetchAccountsClick"
+            android:text="@string/fetch_accounts_button" />
+
+        <Button
+            android:id="@+id/fetch_students"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onFetchStudentsClick"
+            android:text="@string/fetch_students_button" />
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/contacts_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+</LinearLayout>-->
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fitsSystemWindows="true"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:title="Sales Force"
+            app:titleTextColor="@color/white"
+
+            app:theme="@style/AppTheme"  />
+
+
+    </android.support.design.widget.AppBarLayout>
+
+
+
+
+
+
+    <com.aurelhubert.ahbottomnavigation.AHBottomNavigationViewPager
+        android:id="@+id/view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/view"
+        />
+</RelativeLayout>
+
+
+    <android.support.design.widget.FloatingActionButton
+           android:id="@+id/floating_action_button"
+           android:layout_width="wrap_content"
+           android:layout_height="match_parent"
+           android:layout_gravity="right"
+
+           android:layout_marginRight="16dp"
+           android:src="@drawable/ic_content_add"
+           android:visibility="gone" />
+    <com.aurelhubert.ahbottomnavigation.AHBottomNavigation
+        android:id="@+id/bottom_navigation"
+        android:layout_below="@+id/floating_action_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_gravity="bottom" />
+</android.support.design.widget.CoordinatorLayout>

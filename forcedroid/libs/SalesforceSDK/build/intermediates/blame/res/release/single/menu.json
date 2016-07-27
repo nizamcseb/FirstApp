@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "D:\\Projects\\SalesForce\\testing\\FirstApp\\forcedroid\\libs\\SalesforceSDK\\build\\intermediates\\res\\merged\\release\\menu\\sf__clear_custom_url.xml",
+        "source": "D:\\Projects\\SalesForce\\testing\\FirstApp\\forcedroid\\libs\\SalesforceSDK\\res\\menu\\sf__clear_custom_url.xml"
+    },
+    {
+        "merged": "D:\\Projects\\SalesForce\\testing\\FirstApp\\forcedroid\\libs\\SalesforceSDK\\build\\intermediates\\res\\merged\\release\\menu\\sf__login.xml",
+        "source": "D:\\Projects\\SalesForce\\testing\\FirstApp\\forcedroid\\libs\\SalesforceSDK\\res\\menu\\sf__login.xml"
+    }
+]

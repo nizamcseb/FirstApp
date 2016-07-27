@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="account_type">com.mst.salesforce.testapp.login</string>
+	<string name="app_name"><b>MyFirstApp</b></string>
+	<string name="app_package">com.mst.salesforce.testapp</string>
+    <string name="welcome">Welcome %s</string>
+	<string name="logout_button">Logout</string>
+	<string name="fetch_contacts_button">Fetch Contacts</string>
+	<string name="fetch_accounts_button">Fetch Accounts</string>
+	<string name="fetch_students_button">Fetch Students</string>
+	<string name="clear_button">Clear</string>
+
+	<string name="tab_1">Contacts</string>
+	<string name="tab_2">Accounts</string>
+	<string name="tab_3">Department</string>
+	<string name="tab_4">Chatter</string>
+	<string name="tab_5">Settings</string>
+</resources>
