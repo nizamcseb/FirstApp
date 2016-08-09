@@ -7,7 +7,7 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 import java.util.ArrayList;
-
+//nizam
 public class DemoAdapter extends RecyclerView.Adapter<DemoAdapter.ViewHolder> {
 
 	private ArrayList<String> mDataset = new ArrayList<>();
