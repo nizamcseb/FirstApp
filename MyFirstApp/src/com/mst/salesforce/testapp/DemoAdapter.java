@@ -8,9 +8,6 @@ import android.widget.TextView;
 
 import java.util.ArrayList;
 
-/**
- *
- */
 public class DemoAdapter extends RecyclerView.Adapter<DemoAdapter.ViewHolder> {
 
 	private ArrayList<String> mDataset = new ArrayList<>();
