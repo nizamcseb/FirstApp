@@ -244,9 +244,9 @@
     <string name="api_version">v36.0</string>
     <string name="app_name">SalesforceSDK</string>
     <string name="app_package">com.salesforce.androidsdk</string>
-    <string name="oauthRedirectURI">testsfdc:///mobilesdk/detect/oauth/done</string>
+    <string name="oauthRedirectURI">df://HEDA_Android_test</string>
     <string name="oauth_display_type">touch</string>
-    <string name="remoteAccessConsumerKey">3MVG9Iu66FKeHhINkB1l7xt7kR8czFcCTUhgoA8Ol2Ltf1eYHOU4SqQRSEitYFDUpqRWcoQ2.dBv_a1Dyu5xa</string>
+    <string name="remoteAccessConsumerKey">3MVG9Iu66FKeHhINtJPyHH.KFiEqfjWSkcWJiWzESwPMzDk2rLUqi56WUpw2kIIaUm_s9qAhtzyNd43UkQtmd</string>
     <string name="sf__access_token_revoked">Your access token has been revoked by the administrator. You will now be logged out.</string>
     <string name="sf__add_new_account">Add New Account</string>
     <string name="sf__app_service_host_labels_description">Used to specify login host labels for the application.</string>

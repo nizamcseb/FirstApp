@@ -12,12 +12,12 @@
         "source": "D:\\Projects\\SalesForce\\testing\\FirstApp\\MyFirstApp\\build\\intermediates\\exploded-aar\\FirstApp.forcedroid.libs\\SalesforceSDK\\unspecified\\res\\drawable-xlarge-v4\\sf__header_left_border.xml"
     },
     {
-        "merged": "D:\\Projects\\SalesForce\\testing\\FirstApp\\MyFirstApp\\build\\intermediates\\res\\merged\\debug\\drawable-xlarge-v4\\sf__header_refresh.png",
-        "source": "D:\\Projects\\SalesForce\\testing\\FirstApp\\MyFirstApp\\build\\intermediates\\exploded-aar\\FirstApp.forcedroid.libs\\SalesforceSDK\\unspecified\\res\\drawable-xlarge-v4\\sf__header_refresh.png"
-    },
-    {
         "merged": "D:\\Projects\\SalesForce\\testing\\FirstApp\\MyFirstApp\\build\\intermediates\\res\\merged\\debug\\drawable-xlarge-v4\\sf__header_bg.png",
         "source": "D:\\Projects\\SalesForce\\testing\\FirstApp\\MyFirstApp\\build\\intermediates\\exploded-aar\\FirstApp.forcedroid.libs\\SalesforceSDK\\unspecified\\res\\drawable-xlarge-v4\\sf__header_bg.png"
+    },
+    {
+        "merged": "D:\\Projects\\SalesForce\\testing\\FirstApp\\MyFirstApp\\build\\intermediates\\res\\merged\\debug\\drawable-xlarge-v4\\sf__header_refresh.png",
+        "source": "D:\\Projects\\SalesForce\\testing\\FirstApp\\MyFirstApp\\build\\intermediates\\exploded-aar\\FirstApp.forcedroid.libs\\SalesforceSDK\\unspecified\\res\\drawable-xlarge-v4\\sf__header_refresh.png"
     },
     {
         "merged": "D:\\Projects\\SalesForce\\testing\\FirstApp\\MyFirstApp\\build\\intermediates\\res\\merged\\debug\\drawable-xlarge-v4\\sf__login_content_header.xml",

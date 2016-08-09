@@ -1,11 +1,11 @@
 [
     {
-        "merged": "D:\\Projects\\SalesForce\\testing\\FirstApp\\MyFirstApp\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_enter.xml",
-        "source": "D:\\Projects\\SalesForce\\testing\\FirstApp\\MyFirstApp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\anim\\abc_popup_enter.xml"
-    },
-    {
         "merged": "D:\\Projects\\SalesForce\\testing\\FirstApp\\MyFirstApp\\build\\intermediates\\res\\merged\\debug\\anim\\design_bottom_sheet_slide_in.xml",
         "source": "D:\\Projects\\SalesForce\\testing\\FirstApp\\MyFirstApp\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.4.0\\res\\anim\\design_bottom_sheet_slide_in.xml"
+    },
+    {
+        "merged": "D:\\Projects\\SalesForce\\testing\\FirstApp\\MyFirstApp\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_enter.xml",
+        "source": "D:\\Projects\\SalesForce\\testing\\FirstApp\\MyFirstApp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\anim\\abc_popup_enter.xml"
     },
     {
         "merged": "D:\\Projects\\SalesForce\\testing\\FirstApp\\MyFirstApp\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_top.xml",
@@ -64,11 +64,11 @@
         "source": "D:\\Projects\\SalesForce\\testing\\FirstApp\\MyFirstApp\\res\\anim\\fade_in.xml"
     },
     {
-        "merged": "D:\\Projects\\SalesForce\\testing\\FirstApp\\MyFirstApp\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_exit.xml",
-        "source": "D:\\Projects\\SalesForce\\testing\\FirstApp\\MyFirstApp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\anim\\abc_popup_exit.xml"
-    },
-    {
         "merged": "D:\\Projects\\SalesForce\\testing\\FirstApp\\MyFirstApp\\build\\intermediates\\res\\merged\\debug\\anim\\fade_out.xml",
         "source": "D:\\Projects\\SalesForce\\testing\\FirstApp\\MyFirstApp\\res\\anim\\fade_out.xml"
+    },
+    {
+        "merged": "D:\\Projects\\SalesForce\\testing\\FirstApp\\MyFirstApp\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_exit.xml",
+        "source": "D:\\Projects\\SalesForce\\testing\\FirstApp\\MyFirstApp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\anim\\abc_popup_exit.xml"
     }
 ]

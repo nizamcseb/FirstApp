@@ -1,2 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="unspecified"><source path="D:\Projects\SalesForce\testing\FirstApp\MyFirstApp\build\intermediates\exploded-aar\FirstApp.forcedroid.libs\SalesforceSDK\unspecified\assets"/></dataSet><dataSet config="main"><source path="D:\Projects\SalesForce\testing\FirstApp\MyFirstApp\assets"/></dataSet><dataSet config="debug"><source path="D:\Projects\SalesForce\testing\FirstApp\MyFirstApp\src\debug\assets"/></dataSet></merger>

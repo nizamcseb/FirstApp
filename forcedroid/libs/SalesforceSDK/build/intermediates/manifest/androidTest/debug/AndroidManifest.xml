@@ -46,7 +46,7 @@
  <!-- Login activity -->
         <activity
             android:name="com.salesforce.androidsdk.ui.LoginActivity"
-            android:theme="@style/SalesforceSDK.ActionBarTheme" />
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
  <!-- Passcode activity -->
         <activity
             android:name="com.salesforce.androidsdk.ui.PasscodeActivity"

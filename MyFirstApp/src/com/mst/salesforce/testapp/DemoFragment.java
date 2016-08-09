@@ -1,5 +1,6 @@
 package com.mst.salesforce.testapp;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
@@ -12,9 +13,12 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
+import android.widget.AdapterView;
+import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.CompoundButton;
 import android.widget.FrameLayout;
+import android.widget.ListView;
 import android.widget.Toast;
 
 import com.salesforce.androidsdk.app.SalesforceSDKManager;
@@ -35,11 +39,14 @@ import java.util.ArrayList;
 public class DemoFragment extends Fragment {
 
     private FrameLayout fragmentContainer;
-    private RecyclerView recyclerView;
+    //private ListView recyclerView;
     private RecyclerView.LayoutManager layoutManager;
     //private RestClient client;
     JSONArray records;
     //Toolbar toolBar;
+    private ArrayAdapter<String> listAdapter;
+    //View view;
+    //ListView listView;
 
     /**
      * Create a new instance of the fragment
@@ -58,48 +65,48 @@ public class DemoFragment extends Fragment {
         //toolBar= MainActivity.toolbar;
         if (getArguments().getInt("index", 0) == 0) {
 
-            View view = inflater.inflate(R.layout.fragment_demo_list, container, false);
-            MainActivity.toolbar.setTitle(R.string.tab_1);
+          View view = inflater.inflate(R.layout.frag_myprofile, container, false);
+            //MainActivity.toolbar.setTitle(R.string.tab_1);
             //getActivity().getActionBar().setTitle(R.string.tab_1);
-            try {
+            /*try {
 
                 sendRequest("SELECT Id,Name FROM Contact", view);
             } catch (UnsupportedEncodingException e) {
                 e.printStackTrace();
-            }
+            }*/
             return view;
         } else if (getArguments().getInt("index", 0) == 1) {
 
-            View view = inflater.inflate(R.layout.fragment_demo_list, container, false);
-            MainActivity.toolbar.setTitle(R.string.tab_2);
+            View    view = inflater.inflate(R.layout.fragment_demo_list, container, false);
+            //MainActivity.toolbar.setTitle(R.string.tab_2);
             //getActivity().getActionBar().setTitle(R.string.tab_2);
+            try {
+                sendRequest("SELECT Id,Name FROM Application__c", view);
+            } catch (UnsupportedEncodingException e) {
+                e.printStackTrace();
+            }
+            return view;
+        } else if (getArguments().getInt("index", 0) == 2) {
+            View  view = inflater.inflate(R.layout.fragment_demo_list, container, false);
+           // MainActivity.toolbar.setTitle(R.string.tab_3);
             try {
                 sendRequest("SELECT Id,Name FROM Account", view);
             } catch (UnsupportedEncodingException e) {
                 e.printStackTrace();
             }
             return view;
-        } else if (getArguments().getInt("index", 0) == 2) {
-            View view = inflater.inflate(R.layout.fragment_demo_list, container, false);
-            MainActivity.toolbar.setTitle(R.string.tab_3);
-            try {
-                sendRequest("SELECT Id,Name FROM Course__c", view);
-            } catch (UnsupportedEncodingException e) {
-                e.printStackTrace();
-            }
-            return view;
         } else if (getArguments().getInt("index", 0) == 3) {
             View view = inflater.inflate(R.layout.fragment_demo_list, container, false);
-            MainActivity.toolbar.setTitle(R.string.tab_4);
+          //  MainActivity.toolbar.setTitle(R.string.tab_4);
             try {
-                sendRequest("SELECT Id,Name FROM Course__c", view);
+                sendRequest("SELECT Id,Name FROM hed__Term__c", view);
             } catch (UnsupportedEncodingException e) {
                 e.printStackTrace();
             }
             return view;
         } else if (getArguments().getInt("index", 0) == 4) {
-            View view = inflater.inflate(R.layout.fragment_demo_settings, container, false);
-            MainActivity.toolbar.setTitle(R.string.tab_5);
+            View  view = inflater.inflate(R.layout.fragment_demo_settings, container, false);
+           // MainActivity.toolbar.setTitle(R.string.tab_5);
             initDemoSettings(view);
             return view;
         }
@@ -109,27 +116,33 @@ public class DemoFragment extends Fragment {
     @Override
     public void onResume() {
 
+        System.out.println("onResume called");
+
+        //if(listView!=null)
+
         if (getArguments().getInt("index", 0) == 0) {
 
 
-            MainActivity.toolbar.setTitle(R.string.tab_1);
 
         } else if (getArguments().getInt("index", 0) == 1) {
 
 
-            MainActivity.toolbar.setTitle(R.string.tab_2);
+
+
+
 
         } else if (getArguments().getInt("index", 0) == 2) {
 
-            MainActivity.toolbar.setTitle(R.string.tab_3);
+
+
+
 
         } else if (getArguments().getInt("index", 0) == 3) {
 
-            MainActivity.toolbar.setTitle(R.string.tab_4);
+
 
         } else if (getArguments().getInt("index", 0) == 4) {
 
-            MainActivity.toolbar.setTitle(R.string.tab_5);
 
         }
         super.onResume();
@@ -180,13 +193,18 @@ public class DemoFragment extends Fragment {
     /**
      * Init the fragment
      */
-    private void initDemoList(View view, JSONArray recordss) {
+    private void initDemoList(View view, final JSONArray recordss) {
+
+        // Create list adapter
+        listAdapter = new ArrayAdapter<String>(getActivity(), android.R.layout.simple_list_item_1, new ArrayList<String>());
+        ListView listView = (ListView) view.findViewById(R.id.fragment_demo_recycler_view);
+        listView.setAdapter(listAdapter);
 
         fragmentContainer = (FrameLayout) view.findViewById(R.id.fragment_container);
-        recyclerView = (RecyclerView) view.findViewById(R.id.fragment_demo_recycler_view);
-        recyclerView.setHasFixedSize(true);
+        // recyclerView = (ListView) view.findViewById(R.id.fragment_demo_recycler_view);
+        // recyclerView.setHasFixedSize(true);
         layoutManager = new LinearLayoutManager(getActivity());
-        recyclerView.setLayoutManager(layoutManager);
+        // recyclerView.setLayoutManager(layoutManager);
 
         ArrayList<String> itemsData = new ArrayList<>();
     /*	for (int i = 0; i < 50; i++) {
@@ -194,24 +212,50 @@ public class DemoFragment extends Fragment {
 		}
 */
         try {
+            listAdapter.clear();
             for (int i = 0; i < recordss.length(); i++) {
-                itemsData.add(recordss.getJSONObject(i).getString("Name"));
+                listAdapter.add(recordss.getJSONObject(i).getString("Name"));
+
+
             }
         } catch (JSONException e) {
             e.printStackTrace();
         }
 
-        DemoAdapter adapter = new DemoAdapter(itemsData);
-        recyclerView.setAdapter(adapter);
+        // DemoAdapter adapter = new DemoAdapter(itemsData);
+        // recyclerView.setAdapter(adapter);
+
+        // recyclerView
+
+        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                System.out.println("listview item tapped " + position);
+                try {
+                   Intent intent = new Intent(getActivity(), JobActivity.class);
+
+
+                    intent.putExtra("POSITION_ID", recordss.getJSONObject(position).getString("Id"));
+
+                    System.out.println("PositionId= "+recordss.getJSONObject(position).getString("Id"));
+
+                    getActivity().startActivity(intent);
+                } catch (JSONException e) {
+                    e.printStackTrace();
+                }
+            }
+        });
+
+
     }
 
     /**
      * Refresh
      */
     public void refresh() {
-        if (getArguments().getInt("index", 0) > 0 && recyclerView != null) {
+       /* if (getArguments().getInt("index", 0) > 0 && recyclerView != null) {
             recyclerView.smoothScrollToPosition(0);
-        }
+        }*/
     }
 
     /**
@@ -238,7 +282,7 @@ public class DemoFragment extends Fragment {
     private void sendRequest(String soql, final View view) throws UnsupportedEncodingException {
         RestRequest restRequest = RestRequest.getRequestForQuery(getString(R.string.api_version), soql);
 
-        if(MainActivity.client!=null) {
+        if (MainActivity.client != null) {
             MainActivity.client.sendAsync(restRequest, new RestClient.AsyncRequestCallback() {
                 @Override
                 public void onSuccess(RestRequest request, RestResponse result) {
@@ -248,7 +292,7 @@ public class DemoFragment extends Fragment {
                         records = result.asJSONObject().getJSONArray("records");
 
                         initDemoList(view, records);
-				/*	for (int i = 0; i < records.length(); i++) {
+                /*	for (int i = 0; i < records.length(); i++) {
 						listAdapter.add(records.getJSONObject(i).getString("Name"));
 					}*/
                     } catch (Exception e) {

@@ -76,12 +76,12 @@
         "source": "D:\\Projects\\SalesForce\\testing\\FirstApp\\MyFirstApp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_cab_background_internal_bg.xml"
     },
     {
-        "merged": "D:\\Projects\\SalesForce\\testing\\FirstApp\\MyFirstApp\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_radio_material.xml",
-        "source": "D:\\Projects\\SalesForce\\testing\\FirstApp\\MyFirstApp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_btn_radio_material.xml"
-    },
-    {
         "merged": "D:\\Projects\\SalesForce\\testing\\FirstApp\\MyFirstApp\\build\\intermediates\\res\\merged\\debug\\drawable\\tablerow.xml",
         "source": "D:\\Projects\\SalesForce\\testing\\FirstApp\\MyFirstApp\\res\\drawable\\tablerow.xml"
+    },
+    {
+        "merged": "D:\\Projects\\SalesForce\\testing\\FirstApp\\MyFirstApp\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_radio_material.xml",
+        "source": "D:\\Projects\\SalesForce\\testing\\FirstApp\\MyFirstApp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_btn_radio_material.xml"
     },
     {
         "merged": "D:\\Projects\\SalesForce\\testing\\FirstApp\\MyFirstApp\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background_dark.xml",
@@ -228,12 +228,12 @@
         "source": "D:\\Projects\\SalesForce\\testing\\FirstApp\\MyFirstApp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_text_cursor_material.xml"
     },
     {
-        "merged": "D:\\Projects\\SalesForce\\testing\\FirstApp\\MyFirstApp\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_small_material.xml",
-        "source": "D:\\Projects\\SalesForce\\testing\\FirstApp\\MyFirstApp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_ratingbar_small_material.xml"
-    },
-    {
         "merged": "D:\\Projects\\SalesForce\\testing\\FirstApp\\MyFirstApp\\build\\intermediates\\res\\merged\\debug\\drawable\\sqrtop.xml",
         "source": "D:\\Projects\\SalesForce\\testing\\FirstApp\\MyFirstApp\\res\\drawable\\sqrtop.xml"
+    },
+    {
+        "merged": "D:\\Projects\\SalesForce\\testing\\FirstApp\\MyFirstApp\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_small_material.xml",
+        "source": "D:\\Projects\\SalesForce\\testing\\FirstApp\\MyFirstApp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_ratingbar_small_material.xml"
     },
     {
         "merged": "D:\\Projects\\SalesForce\\testing\\FirstApp\\MyFirstApp\\build\\intermediates\\res\\merged\\debug\\drawable\\rzp.png",

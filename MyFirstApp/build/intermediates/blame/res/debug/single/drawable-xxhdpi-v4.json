@@ -72,12 +72,12 @@
         "source": "D:\\Projects\\SalesForce\\testing\\FirstApp\\MyFirstApp\\res\\drawable-xxhdpi\\ic_maps_local_bar.png"
     },
     {
-        "merged": "D:\\Projects\\SalesForce\\testing\\FirstApp\\MyFirstApp\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_textfield_default_mtrl_alpha.9.png",
-        "source": "D:\\Projects\\SalesForce\\testing\\FirstApp\\MyFirstApp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xxhdpi-v4\\abc_textfield_default_mtrl_alpha.9.png"
-    },
-    {
         "merged": "D:\\Projects\\SalesForce\\testing\\FirstApp\\MyFirstApp\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_content_add.png",
         "source": "D:\\Projects\\SalesForce\\testing\\FirstApp\\MyFirstApp\\res\\drawable-xxhdpi\\ic_content_add.png"
+    },
+    {
+        "merged": "D:\\Projects\\SalesForce\\testing\\FirstApp\\MyFirstApp\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_textfield_default_mtrl_alpha.9.png",
+        "source": "D:\\Projects\\SalesForce\\testing\\FirstApp\\MyFirstApp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xxhdpi-v4\\abc_textfield_default_mtrl_alpha.9.png"
     },
     {
         "merged": "D:\\Projects\\SalesForce\\testing\\FirstApp\\MyFirstApp\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_ic_commit_search_api_mtrl_alpha.png",
@@ -92,12 +92,12 @@
         "source": "D:\\Projects\\SalesForce\\testing\\FirstApp\\MyFirstApp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xxhdpi-v4\\abc_ic_menu_selectall_mtrl_alpha.png"
     },
     {
-        "merged": "D:\\Projects\\SalesForce\\testing\\FirstApp\\MyFirstApp\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_btn_check_to_on_mtrl_015.png",
-        "source": "D:\\Projects\\SalesForce\\testing\\FirstApp\\MyFirstApp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xxhdpi-v4\\abc_btn_check_to_on_mtrl_015.png"
-    },
-    {
         "merged": "D:\\Projects\\SalesForce\\testing\\FirstApp\\MyFirstApp\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_conts.png",
         "source": "D:\\Projects\\SalesForce\\testing\\FirstApp\\MyFirstApp\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_conts.png"
+    },
+    {
+        "merged": "D:\\Projects\\SalesForce\\testing\\FirstApp\\MyFirstApp\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_btn_check_to_on_mtrl_015.png",
+        "source": "D:\\Projects\\SalesForce\\testing\\FirstApp\\MyFirstApp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xxhdpi-v4\\abc_btn_check_to_on_mtrl_015.png"
     },
     {
         "merged": "D:\\Projects\\SalesForce\\testing\\FirstApp\\MyFirstApp\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_btn_radio_to_on_mtrl_015.png",

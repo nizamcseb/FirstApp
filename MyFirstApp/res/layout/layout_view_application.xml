@@ -1,0 +1,890 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e7ecee"
+    android:orientation="vertical">
+
+   <!-- <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_above="@+id/scrollView1"
+        android:background="?attr/colorPrimary"
+        android:gravity="center"
+        app:theme="@style/AppTheme"
+        app:title="Order Summery"
+        app:titleTextColor="@color/textHeadings" />-->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="30dp"
+                    android:text="Application Information"
+                    android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium"
+                    android:textColor="@color/black" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/border"
+                    android:orientation="vertical"
+                    android:padding="5dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="4dp"
+                        android:layout_weight="1"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+                            android:text="Application Number : "
+                            android:textAppearance="@android:style/TextAppearance.DeviceDefault.SearchResult.Subtitle"
+                            android:textColor="@color/black"
+                            />
+
+
+                        <TextView
+                            android:id="@+id/tv_bk_accno"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="ApNo-0079"
+                            android:textColor="@color/blackLight" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="4dp"
+                        android:layout_weight="1"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+                            android:text="Approval Status       : "
+                            android:textAppearance="@android:style/TextAppearance.DeviceDefault.SearchResult.Subtitle"
+                            android:textColor="@color/black"
+                            />
+
+
+                        <TextView
+                            android:id="@+id/tv_bk_approvalStatus"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Active"
+                            android:textColor="@color/blackLight" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="4dp"
+                        android:layout_weight="1"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+                            android:text="Terms       : "
+                            android:textAppearance="@android:style/TextAppearance.DeviceDefault.SearchResult.Subtitle"
+                            android:textColor="@color/black"
+                            />
+
+
+                        <TextView
+                            android:id="@+id/tv_bk_terms"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Testing"
+                            android:textColor="@color/blackLight" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="4dp"
+                        android:layout_weight="1"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+                            android:text="Owner       : "
+                            android:textAppearance="@android:style/TextAppearance.DeviceDefault.SearchResult.Subtitle"
+                            android:textColor="@color/black"
+                            />
+
+
+                        <TextView
+                            android:id="@+id/tv_bk_owner"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Nizamuddeen"
+                            android:textColor="@color/blackLight" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="4dp"
+                        android:layout_weight="1"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+                            android:text="Date/Time  : "
+                            android:textAppearance="@android:style/TextAppearance.DeviceDefault.SearchResult.Subtitle"
+                            android:textColor="@color/black"
+                            />
+
+
+                        <TextView
+                            android:id="@+id/tv_bk_sdate_stime"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="date/time"
+                            android:textColor="@color/blackLight" />
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Applicant Personal Information"
+                    android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium"
+                    android:textColor="@color/black" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/border"
+                    android:orientation="vertical"
+                    android:padding="5dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="4dp"
+                        android:layout_weight="1"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+                            android:text="Name    : "
+                            android:textAppearance="@android:style/TextAppearance.DeviceDefault.SearchResult.Subtitle"
+                            android:textColor="@color/black"
+                            />
+
+
+                        <TextView
+                            android:id="@+id/tv_bk_name"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Nizamuddeen Mohamed Aniba"
+                            android:textColor="@color/blackLight" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="4dp"
+                        android:layout_weight="1"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+                            android:text="Email    : "
+                            android:textAppearance="@android:style/TextAppearance.DeviceDefault.SearchResult.Subtitle"
+                            android:textColor="@color/black"
+                            />
+
+
+                        <TextView
+                            android:id="@+id/tv_bk_email"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="nizamuddeen@mstsolutions.com"
+                            android:textColor="@color/blackLight" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="4dp"
+                        android:layout_weight="1"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+                            android:text="Mobile  : "
+                            android:textAppearance="@android:style/TextAppearance.DeviceDefault.SearchResult.Subtitle"
+                            android:textColor="@color/black"
+                            />
+
+
+                        <TextView
+                            android:id="@+id/tv_bk_mobileNumber"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="99944-71706"
+                            android:textColor="@color/blackLight" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="4dp"
+                        android:layout_weight="1"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+                            android:text="Gender : "
+                            android:textAppearance="@android:style/TextAppearance.DeviceDefault.SearchResult.Subtitle"
+                            android:textColor="@color/black"
+                            />
+
+
+                        <TextView
+                            android:id="@+id/tv_bk_gender"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Male"
+                            android:textColor="@color/blackLight" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="4dp"
+                        android:layout_weight="1"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+                            android:text="DOB     : "
+                            android:textAppearance="@android:style/TextAppearance.DeviceDefault.SearchResult.Subtitle"
+                            android:textColor="@color/black"
+                            />
+
+
+                        <TextView
+                            android:id="@+id/tv_bk_dob"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="4 Jan 1990"
+                            android:textColor="@color/blackLight" />
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+                <!-- <TextView
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:layout_marginLeft="10dp"
+                     android:layout_marginTop="10dp"
+                     android:text="Your details:"
+                     android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium"
+                     android:textColor="@color/black" />
+
+                 <LinearLayout
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:layout_marginLeft="10dp"
+                     android:layout_marginRight="5dp"
+                     android:layout_marginTop="10dp"
+                     android:background="@drawable/border"
+                     android:orientation="vertical"
+                     android:padding="5dp">
+
+                     <LinearLayout
+                         android:layout_width="match_parent"
+                         android:layout_height="wrap_content"
+                         android:layout_margin="4dp"
+                         android:layout_weight="1"
+                         android:orientation="horizontal">
+
+                         <TextView
+                             android:layout_width="wrap_content"
+                             android:layout_height="wrap_content"
+
+                             android:text="Name : "
+                             android:textAppearance="@android:style/TextAppearance.DeviceDefault.SearchResult.Subtitle"
+                             android:textColor="@color/black"
+                             android:textStyle="bold" />
+
+
+                         <TextView
+                             android:id="@+id/tv_bk_name"
+                             android:layout_width="wrap_content"
+                             android:layout_height="wrap_content"
+                             android:layout_weight="1"
+                             android:text="name"
+                             android:textColor="@color/blackLight" />
+                     </LinearLayout>
+
+                     <LinearLayout
+                         android:layout_width="match_parent"
+                         android:layout_height="wrap_content"
+                         android:layout_margin="4dp"
+                         android:layout_weight="1"
+                         android:orientation="horizontal">
+
+                         <TextView
+                             android:layout_width="wrap_content"
+                             android:layout_height="wrap_content"
+
+                             android:text="Mobile : "
+                             android:textAppearance="@android:style/TextAppearance.DeviceDefault.SearchResult.Subtitle"
+                             android:textColor="@color/black"
+                             android:textStyle="bold" />
+
+
+                         <TextView
+                             android:id="@+id/tv_bk_mobile"
+                             android:layout_width="wrap_content"
+                             android:layout_height="wrap_content"
+                             android:layout_weight="1"
+                             android:text="service"
+                             android:textColor="@color/blackLight" />
+                     </LinearLayout>
+
+
+                 </LinearLayout>-->
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Present Address"
+                    android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium"
+                    android:textColor="@color/black" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/border"
+                    android:orientation="vertical"
+                    android:padding="5dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:background="@color/white"
+                        android:orientation="vertical"
+                        android:paddingBottom="5dp">
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+
+                         <!--   <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/tv_bk_name"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="5dp"
+                                    android:text="Nizamuddeen"
+                                    android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium"
+                                    android:textColor="@color/black" />
+
+                                <TextView
+                                    android:id="@+id/tv_bk_mobile"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="1dp"
+                                    android:text="Mobile number"
+                                    android:textAppearance="@android:style/TextAppearance.DeviceDefault.Small"
+                                    android:textColor="@color/black" />
+                            </LinearLayout>-->
+
+                            <TextView
+                                android:id="@+id/tv_bk_address"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="15dp"
+                                android:layout_marginTop="5dp"
+                                android:maxEms="100"
+                                android:singleLine="false"
+                                android:text="No.36 Pattabiramn street,tennur"
+                                android:textColor="@color/blackLight" />
+
+                            <TextView
+                                android:id="@+id/tv_bk_city"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="15dp"
+                                android:layout_marginTop="2dp"
+                                android:singleLine="true"
+                                android:text="Trichy"
+                                android:textColor="@color/blackLight" />
+
+                            <TextView
+                                android:id="@+id/tv_bk_state"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="15dp"
+                                android:singleLine="true"
+                                android:text="Tamilnadu"
+
+                                android:textColor="@color/blackLight" />
+
+                            <TextView
+                                android:id="@+id/tv_bk_pin"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="15dp"
+                                android:singleLine="true"
+                                android:text="620017"
+                                android:visibility="gone"
+                                android:textColor="@color/blackLight" />
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="Comments"
+                android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium"
+                android:textColor="@color/black" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/border"
+                android:orientation="vertical"
+                android:padding="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:text="You         : "
+                        android:textAppearance="@android:style/TextAppearance.DeviceDefault.SearchResult.Subtitle"
+                        android:textColor="@color/black"
+                        />
+
+
+                    <TextView
+                        android:id="@+id/tv_bk_comment"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="No Comments"
+                        android:textColor="@color/blackLight" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:text="Support  : "
+                        android:textAppearance="@android:style/TextAppearance.DeviceDefault.SearchResult.Subtitle"
+                        android:textColor="@color/black"
+                        />
+
+
+                    <TextView
+                        android:id="@+id/tv_bk_scomments"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="No Comments"
+                        android:textColor="@color/blackLight" />
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+        <!-- <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_margin="4dp"
+             android:layout_weight="1"
+             android:orientation="horizontal">
+
+             <TextView
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_weight="0.09"
+                 android:text="Sheduled Date/Time "
+                 android:textAppearance="@android:style/TextAppearance.DeviceDefault.SearchResult.Subtitle"
+                 android:textColor="@color/black"
+                 android:textStyle="bold" />
+
+             <TextView
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_weight="0.20"
+                 android:text=":"
+                 android:textColor="@color/black" />
+
+             <TextView
+                 android:id="@+id/tv_bk_sdate_stime"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_weight="1"
+                 android:text="date/time"
+                 android:textColor="@color/black" />
+         </LinearLayout>-->
+
+        <!-- <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_margin="4dp"
+             android:layout_weight="1"
+             android:orientation="horizontal">
+
+             <TextView
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_weight="0.39"
+                 android:text="Your Comments "
+                 android:textAppearance="@android:style/TextAppearance.DeviceDefault.SearchResult.Subtitle"
+                 android:textColor="@color/black"
+                 android:textStyle="bold" />
+
+             <TextView
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_weight="0.22"
+                 android:text=":"
+                 android:textColor="@color/black" />
+
+             <TextView
+                 android:id="@+id/tv_bk_comment"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_weight="1"
+                 android:text="comments"
+                 android:textColor="@color/black" />
+         </LinearLayout>
+
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_margin="4dp"
+             android:layout_weight="1"
+             android:orientation="horizontal">
+
+             <TextView
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_weight="0.33"
+                 android:text="Support Comments "
+                 android:textAppearance="@android:style/TextAppearance.DeviceDefault.SearchResult.Subtitle"
+                 android:textColor="@color/black"
+                 android:textStyle="bold" />
+
+             <TextView
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_weight="0.49"
+                 android:text=":"
+                 android:textColor="@color/black" />
+
+             <TextView
+                 android:id="@+id/tv_bk_scomments"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_weight="1"
+                 android:text="Support comments"
+                 android:textColor="@color/black" />
+         </LinearLayout>-->
+
+        <!--<LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.85"
+                android:text="Name "
+                android:textAppearance="@android:style/TextAppearance.DeviceDefault.SearchResult.Subtitle"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.20"
+                android:text=":"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/tv_bk_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="name"
+                android:textColor="@color/black" />
+        </LinearLayout>-->
+
+        <!--<LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.77"
+                android:text="Address  "
+                android:textAppearance="@android:style/TextAppearance.DeviceDefault.SearchResult.Subtitle"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.21"
+                android:text=":"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/tv_bk_address"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="address"
+                android:textColor="@color/black" />
+        </LinearLayout>-->
+
+        <!--<LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.98"
+                android:text="City "
+                android:textAppearance="@android:style/TextAppearance.DeviceDefault.SearchResult.Subtitle"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.20"
+                android:text=":"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/tv_bk_city"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Trichy"
+                android:textColor="@color/black" />
+        </LinearLayout>-->
+
+        <!-- <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_margin="4dp"
+             android:layout_weight="1"
+             android:orientation="horizontal">
+
+             <TextView
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_weight="0.87"
+                 android:text="State "
+                 android:textAppearance="@android:style/TextAppearance.DeviceDefault.SearchResult.Subtitle"
+                 android:textColor="@color/black"
+                 android:textStyle="bold" />
+
+             <TextView
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_weight="0.20"
+                 android:text=":"
+                 android:textColor="@color/black" />
+
+             <TextView
+                 android:id="@+id/tv_bk_state"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_weight="1"
+                 android:text="State"
+
+                 android:textColor="@color/black" />
+         </LinearLayout>-->
+
+        <!--  <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_margin="4dp"
+              android:layout_weight="1"
+              android:orientation="horizontal">
+
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_weight="0.49"
+                  android:text="Pin number "
+                  android:textAppearance="@android:style/TextAppearance.DeviceDefault.SearchResult.Subtitle"
+                  android:textColor="@color/black"
+                  android:textStyle="bold" />
+
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_weight="0.19"
+                  android:text=":"
+                  android:textColor="@color/black" />
+
+              <TextView
+                  android:id="@+id/tv_bk_pin"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_weight="1"
+                  android:text="pin"
+
+                  android:textColor="@color/black" />
+          </LinearLayout>-->
+
+        <!-- <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_margin="4dp"
+             android:layout_weight="1"
+             android:orientation="horizontal">
+
+             <TextView
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_weight="0.87"
+                 android:text="Mobile "
+                 android:textAppearance="@android:style/TextAppearance.DeviceDefault.SearchResult.Subtitle"
+                 android:textColor="@color/black"
+                 android:textStyle="bold" />
+
+             <TextView
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_weight="0.24"
+                 android:text=":"
+                 android:textColor="@color/black" />
+
+             <TextView
+                 android:id="@+id/tv_bk_mobile"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_weight="1"
+                 android:text="mobile"
+
+                 android:textColor="@color/black" />
+         </LinearLayout>
+ -->
+
+    </LinearLayout>

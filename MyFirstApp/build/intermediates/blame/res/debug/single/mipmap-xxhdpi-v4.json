@@ -1,6 +1,278 @@
 [
     {
+        "merged": "D:\\Projects\\SalesForce\\testing\\FirstApp\\MyFirstApp\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_up.png",
+        "source": "D:\\Projects\\SalesForce\\testing\\FirstApp\\MyFirstApp\\res\\mipmap-xxhdpi\\ic_up.png"
+    },
+    {
+        "merged": "D:\\Projects\\SalesForce\\testing\\FirstApp\\MyFirstApp\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_mobile.png",
+        "source": "D:\\Projects\\SalesForce\\testing\\FirstApp\\MyFirstApp\\res\\mipmap-xxhdpi\\ic_mobile.png"
+    },
+    {
+        "merged": "D:\\Projects\\SalesForce\\testing\\FirstApp\\MyFirstApp\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_customercare.png",
+        "source": "D:\\Projects\\SalesForce\\testing\\FirstApp\\MyFirstApp\\res\\mipmap-xxhdpi\\ic_customercare.png"
+    },
+    {
+        "merged": "D:\\Projects\\SalesForce\\testing\\FirstApp\\MyFirstApp\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_action_navigation_chevron_left.png",
+        "source": "D:\\Projects\\SalesForce\\testing\\FirstApp\\MyFirstApp\\res\\mipmap-xxhdpi\\ic_action_navigation_chevron_left.png"
+    },
+    {
+        "merged": "D:\\Projects\\SalesForce\\testing\\FirstApp\\MyFirstApp\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_sharee.png",
+        "source": "D:\\Projects\\SalesForce\\testing\\FirstApp\\MyFirstApp\\res\\mipmap-xxhdpi\\ic_sharee.png"
+    },
+    {
+        "merged": "D:\\Projects\\SalesForce\\testing\\FirstApp\\MyFirstApp\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_my_orders.png",
+        "source": "D:\\Projects\\SalesForce\\testing\\FirstApp\\MyFirstApp\\res\\mipmap-xxhdpi\\ic_my_orders.png"
+    },
+    {
+        "merged": "D:\\Projects\\SalesForce\\testing\\FirstApp\\MyFirstApp\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_add_details.png",
+        "source": "D:\\Projects\\SalesForce\\testing\\FirstApp\\MyFirstApp\\res\\mipmap-xxhdpi\\ic_add_details.png"
+    },
+    {
+        "merged": "D:\\Projects\\SalesForce\\testing\\FirstApp\\MyFirstApp\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_car.png",
+        "source": "D:\\Projects\\SalesForce\\testing\\FirstApp\\MyFirstApp\\res\\mipmap-xxhdpi\\ic_car.png"
+    },
+    {
+        "merged": "D:\\Projects\\SalesForce\\testing\\FirstApp\\MyFirstApp\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_share_whatsapp.png",
+        "source": "D:\\Projects\\SalesForce\\testing\\FirstApp\\MyFirstApp\\res\\mipmap-xxhdpi\\ic_share_whatsapp.png"
+    },
+    {
+        "merged": "D:\\Projects\\SalesForce\\testing\\FirstApp\\MyFirstApp\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_search.png",
+        "source": "D:\\Projects\\SalesForce\\testing\\FirstApp\\MyFirstApp\\res\\mipmap-xxhdpi\\ic_search.png"
+    },
+    {
+        "merged": "D:\\Projects\\SalesForce\\testing\\FirstApp\\MyFirstApp\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_address.png",
+        "source": "D:\\Projects\\SalesForce\\testing\\FirstApp\\MyFirstApp\\res\\mipmap-xxhdpi\\ic_address.png"
+    },
+    {
+        "merged": "D:\\Projects\\SalesForce\\testing\\FirstApp\\MyFirstApp\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\icc.png",
+        "source": "D:\\Projects\\SalesForce\\testing\\FirstApp\\MyFirstApp\\res\\mipmap-xxhdpi\\icc.png"
+    },
+    {
+        "merged": "D:\\Projects\\SalesForce\\testing\\FirstApp\\MyFirstApp\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_cancelride_new.png",
+        "source": "D:\\Projects\\SalesForce\\testing\\FirstApp\\MyFirstApp\\res\\mipmap-xxhdpi\\ic_cancelride_new.png"
+    },
+    {
+        "merged": "D:\\Projects\\SalesForce\\testing\\FirstApp\\MyFirstApp\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_cabxy_g_7.png",
+        "source": "D:\\Projects\\SalesForce\\testing\\FirstApp\\MyFirstApp\\res\\mipmap-xxhdpi\\ic_cabxy_g_7.png"
+    },
+    {
+        "merged": "D:\\Projects\\SalesForce\\testing\\FirstApp\\MyFirstApp\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_notification.png",
+        "source": "D:\\Projects\\SalesForce\\testing\\FirstApp\\MyFirstApp\\res\\mipmap-xxhdpi\\ic_notification.png"
+    },
+    {
+        "merged": "D:\\Projects\\SalesForce\\testing\\FirstApp\\MyFirstApp\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_message.png",
+        "source": "D:\\Projects\\SalesForce\\testing\\FirstApp\\MyFirstApp\\res\\mipmap-xxhdpi\\ic_message.png"
+    },
+    {
+        "merged": "D:\\Projects\\SalesForce\\testing\\FirstApp\\MyFirstApp\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_tick.png",
+        "source": "D:\\Projects\\SalesForce\\testing\\FirstApp\\MyFirstApp\\res\\mipmap-xxhdpi\\ic_tick.png"
+    },
+    {
+        "merged": "D:\\Projects\\SalesForce\\testing\\FirstApp\\MyFirstApp\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_quote.png",
+        "source": "D:\\Projects\\SalesForce\\testing\\FirstApp\\MyFirstApp\\res\\mipmap-xxhdpi\\ic_quote.png"
+    },
+    {
+        "merged": "D:\\Projects\\SalesForce\\testing\\FirstApp\\MyFirstApp\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\nextbtn.png",
+        "source": "D:\\Projects\\SalesForce\\testing\\FirstApp\\MyFirstApp\\res\\mipmap-xxhdpi\\nextbtn.png"
+    },
+    {
+        "merged": "D:\\Projects\\SalesForce\\testing\\FirstApp\\MyFirstApp\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_direction.png",
+        "source": "D:\\Projects\\SalesForce\\testing\\FirstApp\\MyFirstApp\\res\\mipmap-xxhdpi\\ic_direction.png"
+    },
+    {
+        "merged": "D:\\Projects\\SalesForce\\testing\\FirstApp\\MyFirstApp\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_nav_ridehistory.png",
+        "source": "D:\\Projects\\SalesForce\\testing\\FirstApp\\MyFirstApp\\res\\mipmap-xxhdpi\\ic_nav_ridehistory.png"
+    },
+    {
+        "merged": "D:\\Projects\\SalesForce\\testing\\FirstApp\\MyFirstApp\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_profile_new.png",
+        "source": "D:\\Projects\\SalesForce\\testing\\FirstApp\\MyFirstApp\\res\\mipmap-xxhdpi\\ic_profile_new.png"
+    },
+    {
+        "merged": "D:\\Projects\\SalesForce\\testing\\FirstApp\\MyFirstApp\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_nav_customercare.png",
+        "source": "D:\\Projects\\SalesForce\\testing\\FirstApp\\MyFirstApp\\res\\mipmap-xxhdpi\\ic_nav_customercare.png"
+    },
+    {
+        "merged": "D:\\Projects\\SalesForce\\testing\\FirstApp\\MyFirstApp\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\icc_left_arrow.png",
+        "source": "D:\\Projects\\SalesForce\\testing\\FirstApp\\MyFirstApp\\res\\mipmap-xxhdpi\\icc_left_arrow.png"
+    },
+    {
+        "merged": "D:\\Projects\\SalesForce\\testing\\FirstApp\\MyFirstApp\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_search_w.png",
+        "source": "D:\\Projects\\SalesForce\\testing\\FirstApp\\MyFirstApp\\res\\mipmap-xxhdpi\\ic_search_w.png"
+    },
+    {
+        "merged": "D:\\Projects\\SalesForce\\testing\\FirstApp\\MyFirstApp\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_nav_bookedride.png",
+        "source": "D:\\Projects\\SalesForce\\testing\\FirstApp\\MyFirstApp\\res\\mipmap-xxhdpi\\ic_nav_bookedride.png"
+    },
+    {
+        "merged": "D:\\Projects\\SalesForce\\testing\\FirstApp\\MyFirstApp\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_edit.png",
+        "source": "D:\\Projects\\SalesForce\\testing\\FirstApp\\MyFirstApp\\res\\mipmap-xxhdpi\\ic_edit.png"
+    },
+    {
+        "merged": "D:\\Projects\\SalesForce\\testing\\FirstApp\\MyFirstApp\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_add.png",
+        "source": "D:\\Projects\\SalesForce\\testing\\FirstApp\\MyFirstApp\\res\\mipmap-xxhdpi\\ic_add.png"
+    },
+    {
+        "merged": "D:\\Projects\\SalesForce\\testing\\FirstApp\\MyFirstApp\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_share.png",
+        "source": "D:\\Projects\\SalesForce\\testing\\FirstApp\\MyFirstApp\\res\\mipmap-xxhdpi\\ic_share.png"
+    },
+    {
+        "merged": "D:\\Projects\\SalesForce\\testing\\FirstApp\\MyFirstApp\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_booked.png",
+        "source": "D:\\Projects\\SalesForce\\testing\\FirstApp\\MyFirstApp\\res\\mipmap-xxhdpi\\ic_booked.png"
+    },
+    {
+        "merged": "D:\\Projects\\SalesForce\\testing\\FirstApp\\MyFirstApp\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_menu.png",
+        "source": "D:\\Projects\\SalesForce\\testing\\FirstApp\\MyFirstApp\\res\\mipmap-xxhdpi\\ic_menu.png"
+    },
+    {
+        "merged": "D:\\Projects\\SalesForce\\testing\\FirstApp\\MyFirstApp\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_right_logo.png",
+        "source": "D:\\Projects\\SalesForce\\testing\\FirstApp\\MyFirstApp\\res\\mipmap-xxhdpi\\ic_right_logo.png"
+    },
+    {
+        "merged": "D:\\Projects\\SalesForce\\testing\\FirstApp\\MyFirstApp\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_edit_new.png",
+        "source": "D:\\Projects\\SalesForce\\testing\\FirstApp\\MyFirstApp\\res\\mipmap-xxhdpi\\ic_edit_new.png"
+    },
+    {
+        "merged": "D:\\Projects\\SalesForce\\testing\\FirstApp\\MyFirstApp\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\newlbpickup.png",
+        "source": "D:\\Projects\\SalesForce\\testing\\FirstApp\\MyFirstApp\\res\\mipmap-xxhdpi\\newlbpickup.png"
+    },
+    {
+        "merged": "D:\\Projects\\SalesForce\\testing\\FirstApp\\MyFirstApp\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_close_new.png",
+        "source": "D:\\Projects\\SalesForce\\testing\\FirstApp\\MyFirstApp\\res\\mipmap-xxhdpi\\ic_close_new.png"
+    },
+    {
+        "merged": "D:\\Projects\\SalesForce\\testing\\FirstApp\\MyFirstApp\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\blue.png",
+        "source": "D:\\Projects\\SalesForce\\testing\\FirstApp\\MyFirstApp\\res\\mipmap-xxhdpi\\blue.png"
+    },
+    {
+        "merged": "D:\\Projects\\SalesForce\\testing\\FirstApp\\MyFirstApp\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_btnclose.png",
+        "source": "D:\\Projects\\SalesForce\\testing\\FirstApp\\MyFirstApp\\res\\mipmap-xxhdpi\\ic_btnclose.png"
+    },
+    {
+        "merged": "D:\\Projects\\SalesForce\\testing\\FirstApp\\MyFirstApp\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_gender.png",
+        "source": "D:\\Projects\\SalesForce\\testing\\FirstApp\\MyFirstApp\\res\\mipmap-xxhdpi\\ic_gender.png"
+    },
+    {
+        "merged": "D:\\Projects\\SalesForce\\testing\\FirstApp\\MyFirstApp\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\estimatefarebtn.png",
+        "source": "D:\\Projects\\SalesForce\\testing\\FirstApp\\MyFirstApp\\res\\mipmap-xxhdpi\\estimatefarebtn.png"
+    },
+    {
+        "merged": "D:\\Projects\\SalesForce\\testing\\FirstApp\\MyFirstApp\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_trackride_new.png",
+        "source": "D:\\Projects\\SalesForce\\testing\\FirstApp\\MyFirstApp\\res\\mipmap-xxhdpi\\ic_trackride_new.png"
+    },
+    {
+        "merged": "D:\\Projects\\SalesForce\\testing\\FirstApp\\MyFirstApp\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_mobile_new.png",
+        "source": "D:\\Projects\\SalesForce\\testing\\FirstApp\\MyFirstApp\\res\\mipmap-xxhdpi\\ic_mobile_new.png"
+    },
+    {
+        "merged": "D:\\Projects\\SalesForce\\testing\\FirstApp\\MyFirstApp\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_ratting.png",
+        "source": "D:\\Projects\\SalesForce\\testing\\FirstApp\\MyFirstApp\\res\\mipmap-xxhdpi\\ic_ratting.png"
+    },
+    {
+        "merged": "D:\\Projects\\SalesForce\\testing\\FirstApp\\MyFirstApp\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_down.png",
+        "source": "D:\\Projects\\SalesForce\\testing\\FirstApp\\MyFirstApp\\res\\mipmap-xxhdpi\\ic_down.png"
+    },
+    {
+        "merged": "D:\\Projects\\SalesForce\\testing\\FirstApp\\MyFirstApp\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_car1.png",
+        "source": "D:\\Projects\\SalesForce\\testing\\FirstApp\\MyFirstApp\\res\\mipmap-xxhdpi\\ic_car1.png"
+    },
+    {
+        "merged": "D:\\Projects\\SalesForce\\testing\\FirstApp\\MyFirstApp\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_book.png",
+        "source": "D:\\Projects\\SalesForce\\testing\\FirstApp\\MyFirstApp\\res\\mipmap-xxhdpi\\ic_book.png"
+    },
+    {
+        "merged": "D:\\Projects\\SalesForce\\testing\\FirstApp\\MyFirstApp\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_policies.png",
+        "source": "D:\\Projects\\SalesForce\\testing\\FirstApp\\MyFirstApp\\res\\mipmap-xxhdpi\\ic_policies.png"
+    },
+    {
+        "merged": "D:\\Projects\\SalesForce\\testing\\FirstApp\\MyFirstApp\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\confirmbookingbtn.png",
+        "source": "D:\\Projects\\SalesForce\\testing\\FirstApp\\MyFirstApp\\res\\mipmap-xxhdpi\\confirmbookingbtn.png"
+    },
+    {
+        "merged": "D:\\Projects\\SalesForce\\testing\\FirstApp\\MyFirstApp\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_nav_left_arrow.png",
+        "source": "D:\\Projects\\SalesForce\\testing\\FirstApp\\MyFirstApp\\res\\mipmap-xxhdpi\\ic_nav_left_arrow.png"
+    },
+    {
+        "merged": "D:\\Projects\\SalesForce\\testing\\FirstApp\\MyFirstApp\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_nav_newbooking.png",
+        "source": "D:\\Projects\\SalesForce\\testing\\FirstApp\\MyFirstApp\\res\\mipmap-xxhdpi\\ic_nav_newbooking.png"
+    },
+    {
+        "merged": "D:\\Projects\\SalesForce\\testing\\FirstApp\\MyFirstApp\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_ridehistory.png",
+        "source": "D:\\Projects\\SalesForce\\testing\\FirstApp\\MyFirstApp\\res\\mipmap-xxhdpi\\ic_ridehistory.png"
+    },
+    {
+        "merged": "D:\\Projects\\SalesForce\\testing\\FirstApp\\MyFirstApp\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_user.png",
+        "source": "D:\\Projects\\SalesForce\\testing\\FirstApp\\MyFirstApp\\res\\mipmap-xxhdpi\\ic_user.png"
+    },
+    {
+        "merged": "D:\\Projects\\SalesForce\\testing\\FirstApp\\MyFirstApp\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_chat.png",
+        "source": "D:\\Projects\\SalesForce\\testing\\FirstApp\\MyFirstApp\\res\\mipmap-xxhdpi\\ic_chat.png"
+    },
+    {
+        "merged": "D:\\Projects\\SalesForce\\testing\\FirstApp\\MyFirstApp\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\icc_right_arrow.png",
+        "source": "D:\\Projects\\SalesForce\\testing\\FirstApp\\MyFirstApp\\res\\mipmap-xxhdpi\\icc_right_arrow.png"
+    },
+    {
+        "merged": "D:\\Projects\\SalesForce\\testing\\FirstApp\\MyFirstApp\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_lock_new.png",
+        "source": "D:\\Projects\\SalesForce\\testing\\FirstApp\\MyFirstApp\\res\\mipmap-xxhdpi\\ic_lock_new.png"
+    },
+    {
+        "merged": "D:\\Projects\\SalesForce\\testing\\FirstApp\\MyFirstApp\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_dob.png",
+        "source": "D:\\Projects\\SalesForce\\testing\\FirstApp\\MyFirstApp\\res\\mipmap-xxhdpi\\ic_dob.png"
+    },
+    {
+        "merged": "D:\\Projects\\SalesForce\\testing\\FirstApp\\MyFirstApp\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_profile.png",
+        "source": "D:\\Projects\\SalesForce\\testing\\FirstApp\\MyFirstApp\\res\\mipmap-xxhdpi\\ic_profile.png"
+    },
+    {
+        "merged": "D:\\Projects\\SalesForce\\testing\\FirstApp\\MyFirstApp\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_mail_new.png",
+        "source": "D:\\Projects\\SalesForce\\testing\\FirstApp\\MyFirstApp\\res\\mipmap-xxhdpi\\ic_mail_new.png"
+    },
+    {
+        "merged": "D:\\Projects\\SalesForce\\testing\\FirstApp\\MyFirstApp\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\newreddropoff.png",
+        "source": "D:\\Projects\\SalesForce\\testing\\FirstApp\\MyFirstApp\\res\\mipmap-xxhdpi\\newreddropoff.png"
+    },
+    {
         "merged": "D:\\Projects\\SalesForce\\testing\\FirstApp\\MyFirstApp\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_launcher.png",
         "source": "D:\\Projects\\SalesForce\\testing\\FirstApp\\MyFirstApp\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\Projects\\SalesForce\\testing\\FirstApp\\MyFirstApp\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_offers.png",
+        "source": "D:\\Projects\\SalesForce\\testing\\FirstApp\\MyFirstApp\\res\\mipmap-xxhdpi\\ic_offers.png"
+    },
+    {
+        "merged": "D:\\Projects\\SalesForce\\testing\\FirstApp\\MyFirstApp\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_drawer.png",
+        "source": "D:\\Projects\\SalesForce\\testing\\FirstApp\\MyFirstApp\\res\\mipmap-xxhdpi\\ic_drawer.png"
+    },
+    {
+        "merged": "D:\\Projects\\SalesForce\\testing\\FirstApp\\MyFirstApp\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_mail.png",
+        "source": "D:\\Projects\\SalesForce\\testing\\FirstApp\\MyFirstApp\\res\\mipmap-xxhdpi\\ic_mail.png"
+    },
+    {
+        "merged": "D:\\Projects\\SalesForce\\testing\\FirstApp\\MyFirstApp\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic.png",
+        "source": "D:\\Projects\\SalesForce\\testing\\FirstApp\\MyFirstApp\\res\\mipmap-xxhdpi\\ic.png"
+    },
+    {
+        "merged": "D:\\Projects\\SalesForce\\testing\\FirstApp\\MyFirstApp\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_close.png",
+        "source": "D:\\Projects\\SalesForce\\testing\\FirstApp\\MyFirstApp\\res\\mipmap-xxhdpi\\ic_close.png"
+    },
+    {
+        "merged": "D:\\Projects\\SalesForce\\testing\\FirstApp\\MyFirstApp\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_register.png",
+        "source": "D:\\Projects\\SalesForce\\testing\\FirstApp\\MyFirstApp\\res\\mipmap-xxhdpi\\ic_register.png"
+    },
+    {
+        "merged": "D:\\Projects\\SalesForce\\testing\\FirstApp\\MyFirstApp\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_boy_512.png",
+        "source": "D:\\Projects\\SalesForce\\testing\\FirstApp\\MyFirstApp\\res\\mipmap-xxhdpi\\ic_boy_512.png"
+    },
+    {
+        "merged": "D:\\Projects\\SalesForce\\testing\\FirstApp\\MyFirstApp\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_lock.png",
+        "source": "D:\\Projects\\SalesForce\\testing\\FirstApp\\MyFirstApp\\res\\mipmap-xxhdpi\\ic_lock.png"
+    },
+    {
+        "merged": "D:\\Projects\\SalesForce\\testing\\FirstApp\\MyFirstApp\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_invoices.png",
+        "source": "D:\\Projects\\SalesForce\\testing\\FirstApp\\MyFirstApp\\res\\mipmap-xxhdpi\\ic_invoices.png"
+    },
+    {
+        "merged": "D:\\Projects\\SalesForce\\testing\\FirstApp\\MyFirstApp\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_launcherr.png",
+        "source": "D:\\Projects\\SalesForce\\testing\\FirstApp\\MyFirstApp\\res\\mipmap-xxhdpi\\ic_launcherr.png"
     }
 ]

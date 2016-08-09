@@ -59,4 +59,6 @@
     <color name="color_tab_4">#6C4A42</color>
     <color name="color_tab_5">#F63D2B</color>
     <color name="light_grey">#80cccccc</color>
+
+    <color name="black_overlay">#66000000</color>
 </resources>

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <resources>
-    <string name="remoteAccessConsumerKey">3MVG9ZL0ppGP5UrCv.QKUwrfteqFZuNnr0XL2T5j6kzjBanjSag45X8gLAN_oI4G6K.mN3Uk.y5Fgmn910y2H</string>
-    <string name="oauthRedirectURI">df://MyFirstApp</string>
+    <string name="remoteAccessConsumerKey">3MVG9Iu66FKeHhINtJPyHH.KFiCb9j4SQbsKqqcPBsVwxhBfTokt0n_1mC6db1.ZF35YRrko665y085zpyG7E</string>
+    <string name="oauthRedirectURI">https://test.salesforce.com/services/oauth2/success</string>
     <string-array name="oauthScopes">
         <item>api</item>
     </string-array>

@@ -99,7 +99,7 @@ public class MainActivity extends SalesforceActivity {
     @Override
     public void onResume() {
 
-        //initUI();
+      //  initUI();
 
         super.onResume();
     }

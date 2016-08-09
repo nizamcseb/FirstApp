@@ -1,58 +1,65 @@
 apply plugin: 'android'
 
 dependencies {
-  compile project(':forcedroid:libs:SalesforceSDK')
+    compile project(':forcedroid:libs:SalesforceSDK')
 }
 
 android {
-  compileSdkVersion 23
-  buildToolsVersion '23.0.1'
-  useLibrary  'org.apache.http.legacy'
+    compileSdkVersion 23
+    buildToolsVersion '23.0.1'
+    useLibrary 'org.apache.http.legacy'
 
-  sourceSets {
+    sourceSets {
 
-    main {
-      manifest.srcFile 'AndroidManifest.xml'
-      java.srcDirs = ['src']
-      resources.srcDirs = ['src']
-      aidl.srcDirs = ['src']
-      renderscript.srcDirs = ['src']
-      res.srcDirs = ['res']
-      assets.srcDirs = ['assets']
+        main {
+            manifest.srcFile 'AndroidManifest.xml'
+            java.srcDirs = ['src']
+            resources.srcDirs = ['src']
+            aidl.srcDirs = ['src']
+            renderscript.srcDirs = ['src']
+            res.srcDirs = ['res']
+            assets.srcDirs = ['assets']
+        }
+
+        androidTest.setRoot('../test/TemplateAppTest')
+        androidTest {
+            java.srcDirs = ['../test/TemplateAppTest/src']
+            resources.srcDirs = ['../test/TemplateAppTest/src']
+            res.srcDirs = ['../test/TemplateAppTest/res']
+        }
     }
-
-    androidTest.setRoot('../test/TemplateAppTest')
-    androidTest {
-      java.srcDirs = ['../test/TemplateAppTest/src']
-      resources.srcDirs = ['../test/TemplateAppTest/src']
-      res.srcDirs = ['../test/TemplateAppTest/res']
+    defaultConfig {
+        testApplicationId "com.salesforce.samples.templateapp.tests"
+        testInstrumentationRunner "com.salesforce.androidsdk.util.test.JUnitReportTestRunner"
     }
-  }
-  defaultConfig {
-    testApplicationId "com.salesforce.samples.templateapp.tests"
-    testInstrumentationRunner "com.salesforce.androidsdk.util.test.JUnitReportTestRunner"
-  }
-  packagingOptions {
-    exclude 'META-INF/LICENSE'
-    exclude 'META-INF/LICENSE.txt'
-    exclude 'META-INF/DEPENDENCIES'
-    exclude 'META-INF/NOTICE'
-  }
+    packagingOptions {
+        exclude 'META-INF/LICENSE'
+        exclude 'META-INF/LICENSE.txt'
+        exclude 'META-INF/DEPENDENCIES'
+        exclude 'META-INF/NOTICE'
+    }
 }
 dependencies {
-  compile fileTree(include: ['*.jar'], dir: 'libs')
-  testCompile 'junit:junit:4.12'
-  compile 'com.android.support:appcompat-v7:23.3.0'
-  compile 'com.android.support:multidex:1.0.1'
-  compile 'com.android.support:design:23.4.0'
-  //compile 'com.roughike:bottom-bar:1.3.7'
-  compile 'com.aurelhubert:ahbottomnavigation:1.2.3'
-  compile 'com.android.support:cardview-v7:23.3.0'
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    testCompile 'junit:junit:4.12'
+    compile 'com.android.support:appcompat-v7:23.3.0'
+    compile 'com.android.support:multidex:1.0.1'
+    compile 'com.android.support:design:23.4.0'
+    //compile 'com.roughike:bottom-bar:1.3.7'
+    compile 'com.aurelhubert:ahbottomnavigation:1.2.3'
+    compile 'com.android.support:cardview-v7:23.3.0'
+
 
 
 }
 afterEvaluate {
-  // Find all connected Android tests and ensure they log all passed tests. This keeps the Travis
-  // from timing out since executing tests are printed to the console.
-  tasks.matching { it.name ==~ /^connected.*AndroidTest$/ }*.logging*.setLevel(LogLevel.INFO)
+    // Find all connected Android tests and ensure they log all passed tests. This keeps the Travis
+    // from timing out since executing tests are printed to the console.
+    tasks.matching { it.name ==~ /^connected.*AndroidTest$/ }*.logging*.setLevel(LogLevel.INFO)
+}
+dependencies {
+    compile 'com.android.support.constraint:constraint-layout:+'
+}
+dependencies {
+    compile 'com.android.support:support-v4:23.+'
 }

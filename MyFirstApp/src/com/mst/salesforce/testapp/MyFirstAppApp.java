@@ -31,6 +31,7 @@ import android.app.Application;
 import com.salesforce.androidsdk.app.SalesforceSDKManager;
 import com.salesforce.androidsdk.app.SalesforceSDKManager.KeyInterface;
 import com.salesforce.androidsdk.security.Encryptor;
+import com.salesforce.androidsdk.ui.*;
 
 /**
  * Application class for our application.
@@ -42,6 +43,7 @@ public class MyFirstAppApp extends Application {
 		super.onCreate();
 		SalesforceSDKManager.initNative(getApplicationContext(), new NativeKeyImpl(), MainActivity.class);
 
+		//SalesforceSDKManager.initNative(getApplicationContext(),new NativeKeyImpl(), MainActivity.class,LoginActivity.class);
 		/*
 		 * Un-comment the line below to enable push notifications in this app.
 		 * Replace 'pnInterface' with your implementation of 'PushNotificationInterface'.
